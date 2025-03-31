@@ -1,0 +1,142 @@
+[
+    {
+        "Fields": [
+            {
+                "FieldName": "a",
+                "TypeName": "int"
+            },
+            {
+                "FieldName": "b",
+                "TypeName": "int"
+            }
+        ],
+        "RecordType": 1,
+        "TypeName": "A"
+    },
+    {
+        "Fields": [
+            {
+                "FieldName": "typedef_field",
+                "TypeName": "struct A"
+            }
+        ],
+        "RecordType": 3,
+        "TypeName": "A"
+    },
+    {
+        "Fields": [
+            {
+                "FieldName": "typedef_field",
+                "TypeName": "A"
+            }
+        ],
+        "RecordType": 3,
+        "TypeName": "A_t"
+    },
+    {
+        "Fields": [
+            {
+                "FieldName": "a",
+                "TypeName": "int"
+            },
+            {
+                "FieldName": "b",
+                "TypeName": "int"
+            }
+        ],
+        "RecordType": 1,
+        "TypeName": "B"
+    },
+    {
+        "Fields": [
+            {
+                "FieldName": "typedef_field",
+                "TypeName": "struct B"
+            }
+        ],
+        "RecordType": 3,
+        "TypeName": "BB"
+    },
+    {
+        "Fields": [
+            {
+                "FieldName": "typedef_field",
+                "TypeName": "BB"
+            }
+        ],
+        "RecordType": 3,
+        "TypeName": "BB_t"
+    },
+    {
+        "Fields": [
+            {
+                "FieldName": "typedef_field",
+                "TypeName": "struct __NSConstantString_tag"
+            }
+        ],
+        "RecordType": 3,
+        "TypeName": "__NSConstantString"
+    },
+    {
+        "Fields": [
+            {
+                "FieldName": "typedef_field",
+                "TypeName": "char *"
+            }
+        ],
+        "RecordType": 3,
+        "TypeName": "__builtin_ms_va_list"
+    },
+    {
+        "Fields": [
+            {
+                "FieldName": "typedef_field",
+                "TypeName": "struct __va_list_tag[1]"
+            }
+        ],
+        "RecordType": 3,
+        "TypeName": "__builtin_va_list"
+    },
+    {
+        "Fields": [
+            {
+                "FieldName": "typedef_field",
+                "TypeName": "__int128"
+            }
+        ],
+        "RecordType": 3,
+        "TypeName": "__int128_t"
+    },
+    {
+        "Fields": [
+            {
+                "FieldName": "typedef_field",
+                "TypeName": "unsigned __int128"
+            }
+        ],
+        "RecordType": 3,
+        "TypeName": "__uint128_t"
+    },
+    {
+        "Fields": [
+            {
+                "FieldName": "gp_offset",
+                "TypeName": "unsigned int"
+            },
+            {
+                "FieldName": "fp_offset",
+                "TypeName": "unsigned int"
+            },
+            {
+                "FieldName": "overflow_arg_area",
+                "TypeName": "void *"
+            },
+            {
+                "FieldName": "reg_save_area",
+                "TypeName": "void *"
+            }
+        ],
+        "RecordType": 1,
+        "TypeName": "__va_list_tag"
+    }
+]
